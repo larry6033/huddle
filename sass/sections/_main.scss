@@ -1,9 +1,19 @@
-//  @use "../utilities/variables" as *;
-// @use "../utilities/mixins" as *;
-
-// main section
+ @use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 
 
+
+.main{
+@include flex( center, center);
+width:40%;
+// box-shadow: 1rem solid black;
+}
+
+.main__2{
+    @include flex( center, center);
+    width:40%;
+      
+}
 
 
 
