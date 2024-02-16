@@ -1,0 +1,63 @@
+ @use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+
+
+
+
+.main__content{
+    width:30%;
+}
+
+
+.main__1{
+    @include flex(space-around, center);
+    box-shadow:0 0 2px gray;
+    align-content: center;
+    width:100%;
+    // background-color: aqua;
+    margin:3em 0;
+    box-sizing:border-box;
+}
+
+.main__2{
+    @include flex(space-around, center, row-reverse);
+    width:100%;
+    box-shadow:0 0 2px gray;
+    margin: 3em 0;
+}
+
+
+.main__3{
+    @include flex(space-around, center);
+    width:100%;
+    box-shadow:0 0 2px gray;
+    margin: 3em 0;
+}
+
+.main__image{
+    // @include flex(flex-end, center);
+    margin-right:3em;
+}
+
+.main__btn{
+border:none;
+border-radius: 50px;
+background-color: $Pink;
+padding:1em 4em;
+color:white;
+}
+
+.main__bottom{
+    text-align: center;
+    width:20%;
+    box-shadow:0 0 2px  gray;
+    align-content: center;
+    padding:1em 2em;
+}
+
+.main__bottom--container{
+@include flex(center,center);
+margin:3em 0;
+
+}
