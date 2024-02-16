@@ -1,9 +1,18 @@
 @use "../utilities/mixins" as *;
 @use "../utilities/variables" as *;
+
 .nav__content{
     height:10vh;
    @include flex(space-between,center);
 }
-// .nav__left{
-//     @include flex(c,center)
-// }
+.nav__button{
+    cursor: pointer;
+    padding:1em 2em;
+    border: none;
+    border-radius:40px;
+    background-color:$white;
+    color:$Grayish-Blue;
+    font-weight: bold;
+    font-size:1.5rem;
+    box-shadow: 0 0 2px gray;
+}
