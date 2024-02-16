@@ -66,8 +66,8 @@
   height: 40vh;
   background-color: hsl(192, 100%, 9%);
   color: hsl(193, 100%, 96%);
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .footer__content {
   display: flex;

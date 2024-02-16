@@ -4,8 +4,8 @@
     height: 40vh;
     background-color: $Very-Dark-Cyan;
     color:$Very-Pale-Cyan;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 &__content{
     @include flex(space-between,center);
