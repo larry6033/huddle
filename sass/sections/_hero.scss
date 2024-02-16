@@ -1,0 +1,28 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.btn{
+    padding:1em 2em;
+    border: none;
+    border-radius:50px;
+    background-color: pink;
+    color:$Very-Pale-Cyan;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:1rem;
+}
+.hero{
+    @include flex(center,center);
+    gap:3em;
+
+&__left h1{
+    padding-bottom: 0.5em;
+    font-size: 4rem;
+    font-weight: bold;
+}
+&__left p{
+    padding-bottom: 2em;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+}

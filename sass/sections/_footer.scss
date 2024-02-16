@@ -1,0 +1,58 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.footer{
+    height: 40vh;
+    background-color: $Very-Dark-Cyan;
+    color:$Very-Pale-Cyan;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+&__content{
+    @include flex(space-between,center);
+    gap:2em;
+}
+&-logo img{
+    filter: brightness(0);
+    filter: invert(1);
+}
+
+
+&__left div:not(:first-child){
+    @include flex(flex-start,center);
+    gap:2em;
+}
+&__left{
+    line-height: 4;
+}
+&__center--1 ul{
+    list-style-type: none;
+    line-height: 4;
+}
+&__center--2 ul{
+    list-style-type: none;
+    line-height: 4;
+}
+&__center--1 ul li a{
+    text-decoration: none;
+    color:$white;
+
+    
+}
+&__center--2 ul li  a{
+    text-decoration: none;
+    color:$white;
+}
+&__center--1 ul li  a:hover{
+    text-decoration: underline;
+    color:$white;
+}
+
+&__center--2 ul li  a:hover{
+    text-decoration: underline;
+    color:$white;
+}
+
+&__right p{
+    padding-top: 6em ;
+}
+}
