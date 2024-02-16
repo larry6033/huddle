@@ -2,12 +2,37 @@
 @use "../utilities/mixins" as *;
 
 .main__section{
-// background-color: aqua;
-width:40%;
+    // @include flex(space-between);
+
+// align-items:center;
+// width:80%;
+
+}
+
+.main__1{
+    @include flex(space-between, center);
+    box-shadow:0 0 2px  black;
+    align-content: center;
+    width:60%;
+    // background-color: aqua;
+}
+
+.main__2{
+    @include flex(space-between, center, row-reverse);
+    width:60%;
+    box-shadow:0 0 2px  black;
+    margin: auto;
+}
+
+
+.main__3{
+    @include flex(space-between, center);
+    width:60%;
+    box-shadow:0 0 2px  black;
 }
 
 .main__image{
-    @include flex(center, center);
+    @include flex(flex-end, center);
 }
 
 

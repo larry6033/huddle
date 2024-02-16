@@ -8,13 +8,38 @@
   display: flex;
 }
 
-.main__section {
-  width: 40%;
+.main__1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0 0 2px black;
+  align-content: center;
+  width: 60%;
+}
+
+.main__2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 60%;
+  box-shadow: 0 0 2px black;
+  margin: auto;
+}
+
+.main__3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 60%;
+  box-shadow: 0 0 2px black;
 }
 
 .main__image {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: row;
 }
