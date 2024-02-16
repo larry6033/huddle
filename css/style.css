@@ -44,8 +44,13 @@
 }
 
 .main__image {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: row;
+  margin-right: 3em;
+}
+
+.main__btn {
+  border: none;
+  border-radius: 50px;
+  background-color: hsl(322, 100%, 66%);
+  padding: 1em 4em;
+  color: white;
 }
