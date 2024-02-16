@@ -8,18 +8,13 @@
   display: flex;
 }
 
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+.main__section {
   width: 40%;
 }
 
-.main__2 {
+.main__image {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 40%;
 }
